@@ -120,11 +120,11 @@ dl dd {
 ---------------------------------------- */
 a {
 	text-decoration: none;
-	color: #BA0000;
+	color: #666;
 }
 a:hover {
-	text-decoration: none;
-	color: maroon;
+	text-decoration: underline;
+	color: #999;
 }
 a:focus {
 	outline: thin dotted;
@@ -300,10 +300,10 @@ body {
 		_position: absolute; /* IE6 only: IE6 doesn't support "position: fixed", so we define "position: absolute" as a fallback */
 		left: 30px;
 		top: 200px;
-		border-top: 1px solid #BA0000;
+		border-top: 1px solid #999;
 	}
 	#main-header li {
-		border-bottom: 1px solid #BA0000;
+		border-bottom: 1px solid #999;
 	}
 	nav a:hover {
 		border: none;
@@ -335,7 +335,7 @@ body {
 		-ms-filter: none !important;
 	}
 	a, a:visited {
-		color: #333 !important;
+		color: #6699FF !important;
 		text-decoration: underline;
 	}
 	a[href]:after {
