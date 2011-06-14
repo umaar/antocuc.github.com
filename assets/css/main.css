@@ -366,3 +366,8 @@ body {
 		page-break-after: avoid;
 	}
 }
+
+#html5logo{
+	margin-left:70px;
+	height:50px;	
+}
